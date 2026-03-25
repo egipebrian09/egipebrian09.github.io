@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Premium</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <h2>Freelancer</h2>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#testimonials">Testimoni</a>
+    <a href="#contact">Contact</a>
+    <span class="toggle" onclick="toggleMode()">🌙</span>
+  </nav>
+</header>
+<div class="mobile-nav" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">Profile</a>
+  <a href="#projects" onclick="toggleMenu()">Pendidikan</a>
+  <a href="#testimonials" onclick="toggleMenu()">Skill</a>
+  <a href="#contact" onclick="toggleMenu()">kontak</a>
+  <span onclick="toggleMode()">🌙</span>
+</div>
+<section class="hero">
+  <h1 id="hero-title">Hi, Saya Egi Febrian</h1>
+  <p id="hero-sub">Freelancer</p>
+  <button class="btn" onclick="scrollToSection('projects')">Lihat</button>
+</section>
+<section id="about">
+  <h2>Tentang Saya</h2>
+  <p>Perkenalkan, nama saya Egi Febrian. Saya merupakan individu yang memiliki semangat tinggi dalam belajar dan berkembang, serta mampu bekerja secara mandiri maupun dalam tim. Saya dikenal sebagai pribadi yang disiplin, bertanggung jawab, dan memiliki kemampuan komunikasi yang baik. Dalam pengalaman kerja, saya pernah bekerja sebagai Admin Gudang selama satu tahun. Selama bekerja, saya bertanggung jawab dalam mengimput data keluar masuknya barang. Dari pengalaman tersebut, saya terbiasa bekerja dengan target, mampu menyelesaikan masalah dengan efektif, serta terus berupaya meningkatkan kualitas kerja. Saya juga memiliki keterampilan dalam Microsoft Office, Pengopersikan Komputer yang mendukung kinerja saya secara profesional. Dengan pengalaman dan kemampuan yang saya miliki, saya siap memberikan kontribusi terbaik dan terus berkembang di lingkungan kerja yang saya jalani.</p>
+</section>
+<section id="projects">
+  <h2>Pendidikan</h2>
+  <div class="projects-grid">
+    <div class="card">SDN Rahayu 5 | 2010-2016</div>
+    <div class="card">SMP KP Margahayu | 2016-2019</div>
+    <div class="card">SMK YADIKA Soreang | 2019-2022</div>
+  </div>
+</section>
+<section id="testimonials">
+  <h2>Skill</h2>
+  <div class="testimonials-grid">
+    <div class="card">Microsoft Office</div>
+    <div class="card">Menjalankan Komputer</div>
+    <div class="card">"Bekerja sama dengan tim</div>
+  </div>
+</section>
+<section id="contact">
+  <h2>Kontak</h2>
+  <p>Email: egipebrian09@gmail.com</p>
+</section>
+<footer>
+  <p>© 2026 Freelancer </p>
+</footer>
+<a href="https://wa.me/6282191826217" class="wa-button">💬</a>
+</body>
+<script src="script.js"></script>
+</html>
